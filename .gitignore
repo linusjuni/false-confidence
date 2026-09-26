@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Environment
+.env
+
+# Data, nnU-Net working dirs and analysis outputs
+/data/
+/nnunet/
+/outputs/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
